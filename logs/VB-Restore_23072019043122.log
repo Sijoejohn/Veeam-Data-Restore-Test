@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190723163122
+Username: SJOHN\sjohnonline
+RunAs User: SJOHN\sjohnonline
+Machine: VEEAM-01 (Microsoft Windows NT 6.3.9600.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 38020
+**********************
+Transcript started, output file is D:\VEEAM-Backup-Data-Restore\VB-Restore_23072019043122.log
+Module imported successfully
+Starting scheduled backup-restore test
+Restoration start time 07/23/2019 16:31:22
+Searching for restorepoints
+Restorepoint successfully mounted
+Searching for restoresessioninfo
+Getting credentials
+Restoring files to orginal location
+Files successfully restored to original destination with duplicated name
+Restoration complete time 07/23/2019 16:31:22
+Scheduled restore job completed successfully, please check and verify the output path \\SERVER01\D$\BackupTest\RESTORED-Data-Backup-Test
+Verifying restored file
+File does not exist/ Restore failed- Check restore logs
+Success
+
+   Restore test performed on Server =  SERVER01
+
+   Restored folder = D:\BackupTest
+
+   Restore path = \\SERVER01\D$\BackupTest\RESTORED-Data-Backup-Test
+
+   Restore start time = 07/23/2019 16:31:22
+
+   Restore complete time = 07/23/2019 16:31:22
+
+   Size of data restored in MB = 5.47 MB
+
+   Please find atached log report of scheduled file restoration test.
+
+   Restore status = Success
+Gathering restore log and sending email
+Report has been sent by E-mail to  sjohn@sjohnonline.in  from  VBrestiretest@sjohnonline.in
+**********************
+Windows PowerShell transcript end
+End time: 20190723163256
+**********************
